@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.full_width {
+    width: 100%;
+    height: auto;
+}
+
+.fix_width {
+    max-width: 1680px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(221, 222, 222);
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(221, 222, 222);
+    justify-items: center;
+}
+
+.box_1 {
+    display: flex;
+    background-color: white;
+    width: 100%;
+}
+
+.box_1a {
+    width: 30%;
+    display: flex;
+    background-color: white;
+}
+
+.smallcontainer1 {
+    width: 10%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.smallcontainer2 {
+    width: 30px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: 15px;
+}
+
+.smallcontainer3 {
+    text-align: center;
+    width: 30px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+.smallcontainer5 {
+    text-align: center;
+    width: 15%;
+    text-align: center;
+    color: rgb(39, 39, 39);
+    margin: 15px;
+    font-weight: 500
+}
+
+.smallcontainer6 {
+    text-align: center;
+    width: 30px;
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+.box_1b {
+    width: 28%;
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(236, 233, 238);
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.box_1c {
+    width: 45%;
+    display: flex;
+    justify-content: right;
+}
+
+.fa-wordpress {
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.box_2 {
+    width: 100%;
+    display: flex;
+}
+
+.box_2a {
+    width: 80%;
+    justify-items: center;
+    margin: 100px;
+}
+
+
+.box_2b {
+    width: 20%;
+}
+
+.box_2bi {
+    width: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.box_upper {
+    font-size: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box_lower {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    justify-content: space-between;
+}
+
+.box_lowerdiv1 {
+    font-size: 17px;
+}
+
+.box_lowerdiv2 {
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+
+.box_2bii {
+    display: flex;
+    background-color: white;
+    gap: 35px;
+    padding: 15px;
+}
+
+.box_2biii {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.unorderlist1 {
+    list-style: none;
+}
+
+.container5 {
+    border: 2px solid rgb(210, 210, 210);
+    width: 100%;
+    padding: 10px;
+}
+
+.list1 {
+    line-height: 35px;
+}

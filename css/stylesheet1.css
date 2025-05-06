@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.full_width {
+    width: 100%;
+    height: auto;
+}
+
+.fix_width {
+    max-width: 1680px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(221, 222, 222);
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(221, 222, 222);
+    justify-items: center;
+}
+
+.box_1 {
+    background-color: rgb(29, 26, 26);
+    padding: 10px;
+    width: 100%;
+}
+
+.box_2 {
+    width: 100%;
+    display: flex;
+    background-color: rgb(235, 233, 234);
+}
+
+.box_2a {
+    width: 15%;
+    background-color: rgb(29, 26, 26);
+    padding-bottom: 19%;
+    padding-left: 12px;
+}
+
+.box_2b {
+    width: 100%;
+}
+
+.box2bi {
+    display: flex;
+    background-color: rgb(235, 233, 234);
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.box2bii {
+    background-color: rgb(235, 233, 234);
+    font-size: 20px;
+    padding: 12px;
+    font-weight: 500
+}
+
+.box2biii {
+    background-color: rgb(29, 26, 26);
+    padding: 50px;
+    color: white;
+    margin: 20px;
+}
+
+.box2biv {
+    display: flex;
+    width: 100%;
+    gap: 15px;
+    padding: 10px;
+    align-items: center;
+}
+
+.box_2smallcontaier {
+    display: flex;
+}
+
+.unorderlist1 {
+    list-style: none;
+    display: flex;
+    align-self: left;
+    gap: 15px;
+}
+
+.unorderlist2 {
+    list-style: none;
+}
+
+
+.fa-house,
+.fa-arrow-rotate-right,
+.fa-message,
+.fa-plus,
+.fa-thumbtack,
+.fa-photo-film,
+.fa-copy,
+.fa-comments,
+.fa-brush,
+.fa-plug,
+.fa-user,
+.fa-wrench,
+.fa-sliders,
+.fa-circle-play {
+    color: rgb(174, 173, 173);
+    font-size: 13px;
+}
+
+.fa-wordpress {
+    font-size: 20px;
+    color: rgb(174, 173, 173);
+}
+
+.list1 {
+    color: white;
+    font-size: 15px;
+}
+
+.list2 {
+    color: white;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.list22 {
+    color: white;
+    font-size: 15px;
+    line-height: 32px;
+    background-color: blue;
+}
+
+.headerbutton {
+    padding: 5px;
+}
+
+.container1 {
+    background-color: white;
+    padding: 10px;
+    border-left: 5px solid rgb(234, 92, 40);
+    text-align: center;
+}
+
+.box_2smallcontaier {
+    background-color: rgb(235, 233, 234);
+    padding: 30px;
+    gap: 15px;
+}
+
+.fa-square-pen,
+.fa-table-list,
+.fa-circle-half-stroke {
+    font-size: 35px;
+}
+
+.paragraph1 {
+    padding: 10px;
+}

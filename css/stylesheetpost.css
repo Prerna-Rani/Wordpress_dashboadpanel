@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.full_width {
+    width: 100%;
+    height: auto;
+}
+
+.fix_width {
+    max-width: 1680px;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgb(221, 222, 222);
+}
+
+.content {
+    width: 100%;
+    background-color: rgb(221, 222, 222);
+    justify-items: center;
+}
+
+.box_1 {
+    background-color: rgb(29, 26, 26);
+    padding: 10px;
+    width: 100%;
+}
+
+.box_2 {
+    width: 100%;
+    display: flex;
+    background-color: rgb(235, 233, 234);
+}
+
+.box_2a {
+    width: 15%;
+    background-color: rgb(29, 26, 26);
+    padding-bottom: 19%;
+    padding-left: 12px;
+}
+
+.box_2b {
+    width: 100%;
+}
+
+.box2bi {
+    display: flex;
+    background-color: rgb(235, 233, 234);
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.unorderlist1 {
+    list-style: none;
+    display: flex;
+    align-self: left;
+    gap: 15px;
+}
+
+.unorderlist2 {
+    list-style: none;
+}
+
+
+.fa-house,
+.fa-arrow-rotate-right,
+.fa-message,
+.fa-plus,
+.fa-thumbtack,
+.fa-photo-film,
+.fa-copy,
+.fa-comments,
+.fa-brush,
+.fa-plug,
+.fa-user,
+.fa-wrench,
+.fa-sliders,
+.fa-circle-play {
+    color: rgb(174, 173, 173);
+    font-size: 13px;
+}
+
+.fa-wordpress {
+    font-size: 20px;
+    color: rgb(174, 173, 173);
+}
+
+.list1 {
+    color: white;
+    font-size: 15px;
+}
+
+.list2 {
+    color: white;
+    font-size: 15px;
+    line-height: 32px;
+}
+
+.list22 {
+    color: white;
+    font-size: 15px;
+    line-height: 32px;
+    background-color: blue;
+}
+
+.headerbutton {
+    padding: 5px;
+}
+
+.paraheading1 {
+    font-size: 25px;
+    font-weight: 500
+}
+
+.container1 {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.addbutton {
+    padding: 10px;
+    color: rgb(56, 56, 235);
+    border-radius: 5px;
+    border: 1px solid rgb(56, 56, 235);
+}
+
+.box2bii {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.box2bcontainer2 {
+    display: flex;
+    gap: 10px;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th,
+td {
+    width: 260px;
+    height: 30px;
+}
+
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+
+.unorderlist3 {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 15px;
+}
+
+.list3b {
+    border: 1px solid rgb(56, 56, 235);
+    color: rgb(56, 56, 235);
+    border-radius: 5px;
+    background-color: white;
+    padding: 6px;
+}
+
+.list3a {
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: white;
+    padding: 6px;
+}
